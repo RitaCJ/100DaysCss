@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+.frame{
+    width: 500px;
+    height: 500px;
+    /*top, left + position: absolute*/
+    top:40%;
+    left:40%;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -100px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px 2px;
+    background: -webkit-linear-gradient(bottom right, #4169E1 10%, #663399 100%);
+    background: -moz-linear-gradient(bottom right, #4169E1 10%, #663399 100%);
+    background: -o-linear-gradient(bottom right, #4169E1 10%, #663399 100%);
+    background: linear-gradient(bottom right, #4169E1 10%, #663399 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: deepskyblue;
+}
+
+.center{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+
+.number{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+
+.one{
+    background: #fff;
+    left: -22px;
+    height: 50px;
+    width: 25px;
+    position: absolute;
+   /* z-index -> Sobre posição dos elementos*/
+    z-index: 100;
+    top:0;
+    border-radius: 4px;
+    transform: rotate(50deg);
+    box-shadow: -10 -13px 0;
+}
+
+.one-two{
+    background:#fff;
+    left: 0px;
+    height: 100px;
+    width: 30px;
+    position: absolute;
+    z-index: 9;
+    top:0;
+    border-radius: 2px;
+    box-shadow: 0 0  13px 0;
+}
+
+.zero, .zero-two{
+    height: 100px;
+    width: 100px;
+    border: 20px solid #fff;
+    border-radius: 60%;
+    box-sizing: border-box;
+    box-shadow: 0 0 13px 0;
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    left: 17px;
+}
+
+.zero-two{
+    z-index: 6;
+    left: 100px;
+}
+
+.days{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: -10px;
+    position: relative;
+    z-index: 30;
+}
+
+.info{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+    z-index: 22;
+    font-weight: 400;
+    margin-left: -6px;
+}
